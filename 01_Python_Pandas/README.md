@@ -1,4 +1,4 @@
-# 🐼 02 - Python para Análisis de Datos con Pandas
+# 🐼 01 - Python y Pandas para Análisis de Datos
 
 Módulo enfocado en el uso de Python y la biblioteca Pandas para análisis
 de datos profesional. Cubre desde la exploración básica de datasets hasta
