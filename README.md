@@ -1,7 +1,7 @@
 # 📊 Data Analytics Learning — Programa de 90 días
 
 > Repositorio de aprendizaje estructurado en Data Analytics, Business Intelligence y preparación para Machine Learning.  
-> Estudiante: Ingeniería Informática · Meta: nivel **Junior Data Analyst** profesional.
+> **Estudiante:** Ingeniería Informática · **Meta:** nivel Junior Data Analyst profesional.
 
 ---
 
@@ -9,22 +9,8 @@
 
 Desarrollar competencias técnicas y analíticas desde un nivel intermedio de programación hasta un perfil profesional junior en Data Analytics, construyendo un portafolio real con proyectos sobre datos reales.
 
-**Duración estimada:** 90 días · ~1 hora diaria  
-**Estado actual:** 🟢 En progreso — Día 4 de 90
-
----
-
-## 🛠️ Stack tecnológico
-
-| Categoría | Herramientas |
-|---|---|
-| Lenguaje | Python 3 |
-| Manipulación de datos | Pandas, NumPy |
-| Visualización | Matplotlib, Seaborn |
-| Business Intelligence | Power BI |
-| Bases de datos | SQL |
-| Entorno | Google Colab, Jupyter Notebook |
-| Control de versiones | Git, GitHub |
+**Duración:** 90 días · **Dedicación:** ~1 hora diaria  
+**Stack tecnológico:** Python · Pandas · NumPy · SQL · Power BI · Matplotlib · Seaborn · Jupyter / Google Colab
 
 ---
 
@@ -33,23 +19,24 @@ Desarrollar competencias técnicas y analíticas desde un nivel intermedio de pr
 ```
 data-analytics-learning/
 │
-├── 01_Python_Pandas/           ← Fundamentos de Python para datos y Pandas
-│   ├── dia_01_introduccion/
+├── 📂 01_Fundamentos/                  # Python para análisis de datos
+│   ├── dia_01_intro_pandas/
 │   ├── dia_02_seleccion_filtrado/
 │   ├── dia_03_groupby/
-│   └── dia_04_limpieza/
+│   ├── dia_04_limpieza/
+│   └── dia_05_transformacion/
 │
-├── 02_SQL/                     ← SQL para análisis de negocio
+├── 📂 02_Estadistica/                  # Estadística descriptiva e inferencial
 │
-├── 03_Visualizacion/           ← Matplotlib, Seaborn y storytelling con datos
+├── 📂 03_SQL/                          # SQL para análisis de negocio
 │
-├── 04_PowerBI/                 ← Dashboards y Business Intelligence
+├── 📂 04_Visualizacion/                # Matplotlib, Seaborn, dashboards
 │
-├── 05_Proyectos/               ← Proyectos guiados completos con datasets reales
+├── 📂 05_Proyectos_Guiados/            # Proyectos completos con documentación
 │
-├── 06_Portafolio/              ← Proyectos seleccionados para entrevistas laborales
+├── 📂 06_Portafolio/                   # Proyectos independientes para entrevistas
 │
-├── datasets/                   ← Datasets utilizados durante el programa
+├── 📂 datasets/
 │   └── titanic.csv
 │
 └── README.md
@@ -57,112 +44,96 @@ data-analytics-learning/
 
 ---
 
-## 📚 Contenidos por módulo
-
-### 01 · Python & Pandas
-Fundamentos de manipulación de datos con Python y la librería Pandas, usando datasets reales.
-
-| Día | Tema | Conceptos clave |
-|-----|------|----------------|
-| 01 | Introducción al Data Analytics | Tipos de análisis, flujo de 6 fases, Series, DataFrame, `read_csv`, `head/tail/info/describe` |
-| 02 | Selección y filtrado | Selección de columnas/filas, `.loc`, `.iloc`, filtros booleanos, operadores `&` `\|` `~` |
-| 03 | Agrupación y agregación | `.groupby()`, `.agg()`, `.value_counts()`, `reset_index()`, MultiIndex |
-| 04 | Limpieza de datos | `isnull`, `fillna`, `dropna`, `drop_duplicates`, `astype`, `pd.cut` |
-| 05 | *(próximamente)* Estadística descriptiva | Media, mediana, desviación estándar, distribuciones |
-
-### 02 · SQL *(próximamente)*
-Consultas para responder preguntas de negocio. SELECT, WHERE, GROUP BY, JOINs, subconsultas y funciones de ventana.
-
-### 03 · Visualización *(próximamente)*
-Matplotlib y Seaborn para crear visualizaciones efectivas. Principios de storytelling con datos.
-
-### 04 · Power BI *(próximamente)*
-Construcción de dashboards interactivos. KPIs, segmentaciones, DAX básico.
-
-### 05 · Proyectos guiados *(próximamente)*
-Análisis completos sobre datasets reales con documentación profesional.
-
-### 06 · Portafolio *(en construcción)*
-Proyectos seleccionados listos para presentar en entrevistas laborales.
-
----
-
-## 🔬 Dataset principal — Titanic
-
-El dataset `titanic.csv` es el conjunto de datos principal de la fase inicial del programa.
-
-| Característica | Valor |
-|---|---|
-| Filas | 891 |
-| Columnas | 12 |
-| Fuente | [datasciencedojo/datasets](https://github.com/datasciencedojo/datasets) |
-| Variables clave | `Survived`, `Pclass`, `Age`, `Fare`, `Sex`, `Embarked` |
-
-Usado para practicar: exploración, filtrado, agrupaciones, limpieza de datos y estadística descriptiva.
-
----
-
 ## 📈 Progreso del programa
 
+### Módulo 1 — Fundamentos de Python para Análisis de Datos
+
+| Día | Tema | Estado | Notebook |
+|-----|------|--------|----------|
+| 1 | Introducción a Pandas · Exploración inicial de datasets | ✅ Completado | [dia_01](./01_Fundamentos/dia_01_intro_pandas/) |
+| 2 | Selección de columnas · `.loc` · `.iloc` · Filtrado condicional | ✅ Completado | [dia_02](./01_Fundamentos/dia_02_seleccion_filtrado/) |
+| 3 | Agrupaciones con `.groupby()` · `.agg()` · `value_counts()` | ✅ Completado | [dia_03](./01_Fundamentos/dia_03_groupby/) |
+| 4 | Limpieza de datos · Nulos · Duplicados · Tipos de datos | ✅ Completado | [dia_04](./01_Fundamentos/dia_04_limpieza/) |
+| 5 | Transformación · `apply()` · `map()` · Feature Engineering | ✅ Completado | [dia_05](./01_Fundamentos/dia_05_transformacion/) |
+| 6–10 | EDA · Estadística descriptiva · Primeras visualizaciones | 🔜 Próximamente | — |
+
+### Módulos siguientes
+
+| Módulo | Contenido | Estado |
+|--------|-----------|--------|
+| 2 — Estadística | Descriptiva · Inferencial · Probabilidad | 🔜 Próximamente |
+| 3 — SQL | Consultas · JOINs · Análisis de negocio | 🔜 Próximamente |
+| 4 — Visualización | Matplotlib · Seaborn · Storytelling | 🔜 Próximamente |
+| 5 — Business Intelligence | Power BI · Dashboards · KPIs | 🔜 Próximamente |
+| 6 — Proyectos | Análisis completos end-to-end | 🔜 Próximamente |
+
+---
+
+## 🛠️ Habilidades desarrolladas
+
+### Completadas
+- Exploración inicial de datasets con Pandas (`shape`, `dtypes`, `describe`, `info`)
+- Selección de filas y columnas con `.loc` e `.iloc`
+- Filtrado condicional con operadores booleanos (`&`, `|`, `~`)
+- Agrupaciones y agregaciones con `.groupby()` y `.agg()`
+- Detección y tratamiento de valores nulos (`isnull`, `fillna`, `dropna`)
+- Eliminación de duplicados (`drop_duplicates`)
+- Corrección de tipos de datos (`astype`, `pd.cut`)
+- Transformación de columnas con `apply()` y funciones personalizadas
+- Recodificación de categorías con `map()`
+- Creación de nuevas variables (Feature Engineering básico)
+- Extracción de información desde texto con `lambda`
+
+### En desarrollo
+- Análisis Exploratorio de Datos (EDA)
+- Estadística descriptiva aplicada
+- Visualización con Matplotlib y Seaborn
+
+---
+
+## 📊 Dataset principal
+
+**Titanic — Kaggle**  
+Dataset clásico de análisis de datos con información de 891 pasajeros: edad, género, clase, tarifa, puerto de embarque y supervivencia.
+
+Columnas trabajadas: `Survived`, `Pclass`, `Name`, `Sex`, `Age`, `SibSp`, `Parch`, `Fare`, `Embarked`, `Cabin`  
+Variables creadas: `grupo_edad`, `tam_familiar`, `tipo_viajero`, `titulo`, `clase_nombre`, `nivel_tarifa`, `categoria_tarifa`
+
+---
+
+## 🗂️ Estructura de cada sesión
+
+Cada carpeta de día contiene:
+
 ```
-Módulo 1 — Python & Pandas     ████░░░░░░░░░░░░  ~25% (4/16 sesiones estimadas)
-Módulo 2 — SQL                 ░░░░░░░░░░░░░░░░   0%
-Módulo 3 — Visualización       ░░░░░░░░░░░░░░░░   0%
-Módulo 4 — Power BI            ░░░░░░░░░░░░░░░░   0%
-Proyectos guiados              ░░░░░░░░░░░░░░░░   0%
-─────────────────────────────────────────────────
-Progreso total del programa    █░░░░░░░░░░░░░░░  ~4% (Día 4/90)
+dia_XX_tema/
+├── dia_XX_tema.ipynb     # Notebook con código y análisis
+└── notas_diaXX.md        # Resumen de conceptos, errores y aprendizajes
 ```
 
 ---
 
-## 🏆 Competencias en desarrollo
+## 🚀 Proyectos (próximamente)
 
-- [x] Exploración de datasets con Pandas
-- [x] Selección y filtrado de datos
-- [x] Agrupación y análisis por segmentos
-- [x] Limpieza de datos (nulos, duplicados, tipos)
-- [ ] Estadística descriptiva e inferencial
-- [ ] Visualización con Matplotlib y Seaborn
-- [ ] SQL para análisis de negocio
-- [ ] Dashboards en Power BI
-- [ ] Análisis Exploratorio de Datos (EDA) completo
-- [ ] Storytelling con datos
-- [ ] Machine Learning introductorio
+Los proyectos completos se publicarán en `05_Proyectos_Guiados/` con:
+
+- Definición del problema de negocio
+- Exploración y limpieza del dataset
+- Análisis exploratorio completo
+- Visualizaciones
+- Hallazgos y conclusiones
+- README individual por proyecto
 
 ---
 
-## 🗂️ Cómo navegar este repositorio
+## 👤 Sobre este repositorio
 
-Cada carpeta de sesión contiene:
+Programa de mentoría personalizada estructurado en 90 días.  
+Cada sesión incluye teoría, práctica, corrección de errores y construcción progresiva de portafolio.
 
-- `dia_XX_tema.ipynb` — notebook ejecutable en Google Colab con teoría y ejercicios
-- `notas_diaXX.md` — resumen de conceptos, comandos aprendidos y errores corregidos
-
-Los proyectos en `05_Proyectos/` incluyen además un `README.md` propio con definición del problema, metodología y hallazgos principales.
+**Contacto:** *(agregar LinkedIn y correo cuando estés listo para postular)*
 
 ---
 
-## 🚀 Ejecutar los notebooks
+*Última actualización: Día 5 de 90 completado — Módulo: Fundamentos de Python para Análisis de Datos*
 
-Todos los notebooks son compatibles con **Google Colab** y **Jupyter Notebook**.
-
-```bash
-# Clonar el repositorio
-git clone https://github.com/NicolasC-1997/data-analytics-learning.git
-
-# Abrir en Jupyter
-jupyter notebook
-```
-
-O abrir directamente en Google Colab haciendo clic en el badge de cada notebook.
-
----
-
-## 📄 Licencia
-
-MIT License — ver archivo `LICENSE` para más detalles.
-
----
-
-*Repositorio en construcción activa · Actualizado diariamente durante el programa de 90 días.*
