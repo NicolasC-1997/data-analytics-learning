@@ -123,8 +123,6 @@ Los proyectos completos se publicarán en `05_Proyectos/` con definición del pr
 
 ## 👤 Contacto
 
-*(Agregar LinkedIn y correo cuando estés listo para postular)*
-
 ---
 
 *Última actualización: Día 5 de 90 completado · Módulo activo: 01_Python_Pandas*
