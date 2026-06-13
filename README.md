@@ -50,11 +50,11 @@ data-analytics-learning/
 
 | Día | Tema | Estado | Notebook |
 |-----|------|--------|----------|
-| 1 | Introducción a Pandas · Exploración inicial de datasets | ✅ Completado | [dia_01](./01_Fundamentos/dia_01_intro_pandas/) |
-| 2 | Selección de columnas · `.loc` · `.iloc` · Filtrado condicional | ✅ Completado | [dia_02](./01_Fundamentos/dia_02_seleccion_filtrado/) |
-| 3 | Agrupaciones con `.groupby()` · `.agg()` · `value_counts()` | ✅ Completado | [dia_03](./01_Fundamentos/dia_03_groupby/) |
-| 4 | Limpieza de datos · Nulos · Duplicados · Tipos de datos | ✅ Completado | [dia_04](./01_Fundamentos/dia_04_limpieza/) |
-| 5 | Transformación · `apply()` · `map()` · Feature Engineering | ✅ Completado | [dia_05](./01_Fundamentos/dia_05_transformacion/) |
+| 1 | Introducción a Pandas · Exploración inicial de datasets | ✅ Completado | [dia_01](./01_Python_Pandas/dia_01_intro_pandas/) |
+| 2 | Selección de columnas · `.loc` · `.iloc` · Filtrado condicional | ✅ Completado | [dia_02](./Python_Pandas/dia_02_seleccion_filtrado/) |
+| 3 | Agrupaciones con `.groupby()` · `.agg()` · `value_counts()` | ✅ Completado | [dia_03](./Python_Pandas/dia_03_groupby/) |
+| 4 | Limpieza de datos · Nulos · Duplicados · Tipos de datos | ✅ Completado | [dia_04](./Python_Pandas/dia_04_limpieza/) |
+| 5 | Transformación · `apply()` · `map()` · Feature Engineering | ✅ Completado | [dia_05](./Python_Pandas/dia_05_transformacion/) |
 | 6–10 | EDA · Estadística descriptiva · Primeras visualizaciones | 🔜 Próximamente | — |
 
 ### Módulos siguientes
@@ -115,7 +115,7 @@ dia_XX_tema/
 
 ## 🚀 Proyectos (próximamente)
 
-Los proyectos completos se publicarán en `05_Proyectos_Guiados/` con:
+Los proyectos completos se publicarán en `05_Proyectos/` con:
 
 - Definición del problema de negocio
 - Exploración y limpieza del dataset
@@ -131,7 +131,6 @@ Los proyectos completos se publicarán en `05_Proyectos_Guiados/` con:
 Programa de mentoría personalizada estructurado en 90 días.  
 Cada sesión incluye teoría, práctica, corrección de errores y construcción progresiva de portafolio.
 
-**Contacto:** *(agregar LinkedIn y correo cuando estés listo para postular)*
 
 ---
 
